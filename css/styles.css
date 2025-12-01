@@ -1,3 +1,4 @@
+/* GLOBAL STYLES */
 * {
 	box-sizing: border-box;
 }
@@ -13,16 +14,40 @@ body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-  font-size: 16px;
-  line-height: 22;
-  font-family: Rubik, Arial, Helvetica, sans-serif;
-  color: #4a4b4c;
-  background-color: #fff;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: Rubik, Arial, Helvetica, sans-serif;
+	color: #4a4b4c;
+	background-color: #fff;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+/* Button  */
+.button {
+	display: inline-block;
+	padding: 13px 20px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: normal;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.button-primary {
+	background-color: #7296ec;
+	color: #fff;
+}
+
+.button-primary:hover {
+	opacity: 0.8;
+}
+
+.button-primary:active {
+	opacity: 0.6;
 }
 
 /* CONTAINER */
@@ -34,5 +59,86 @@ img {
 	margin: 0 auto;
 }
 
+/* SITE HEADER */
 
-Rubik 700, 400, 500
+.site-header {
+}
+
+/* Site header top */
+.site-header-top {
+	padding: 30px 0;
+	background-color: #f6f6f6;
+}
+.site-header-top-container {
+	display: flex;
+	align-items: center;
+}
+
+/* Logo  */
+
+.site-header-logo {
+	display: flex;
+	background-color: #fff;
+	padding: 8px 6px;
+	border-radius: 7px;
+	margin-right: 35px;
+}
+
+.site-header-logo:hover {
+	opacity: 0.8;
+}
+.site-header-logo:active {
+	opacity: 0.6;
+}
+
+/* Currency rates */
+.currency-rates {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-right: auto;
+}
+.currency-rates-item:not(:last-child) {
+	margin-right: 25px;
+}
+.currency-rates-type {
+	color: #2959ce;
+}
+.currency-rates-value {
+	color: #555;
+	font-size: 16px;
+	line-height: 100%;
+}
+
+/* Lang toggle */
+
+.lang-toggle {
+	display: flex;
+	padding: 3px;
+	border-radius: 39px;
+	background-color: #dce6ff;
+	margin-right: 25px;
+}
+
+.lang-toggle-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;
+	/* line-height: 30px; */
+}
+.lang-toggle-link-active {
+	background-color: #fff;
+	color: #000;
+}
+.button {
+}
+.button-primary {
+}
