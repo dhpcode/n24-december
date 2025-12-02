@@ -42,6 +42,16 @@ img {
 	line-height: normal;
 	border-radius: 10px;
 	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+.button:active {
+	opacity: 0.6;
 }
 
 .button-primary {
@@ -49,12 +59,9 @@ img {
 	color: #fff;
 }
 
-.button-primary:hover {
-	opacity: 0.8;
-}
-
-.button-primary:active {
-	opacity: 0.6;
+.button-orange {
+	background-color: #f78b3b;
+	color: #fff;
 }
 
 /* CONTAINER */
@@ -293,4 +300,24 @@ img {
 .article-card-source {
 }
 .article-card-time {
+}
+
+/* Notification cta */
+
+.notification-cta {
+	margin: 60px 75px;
+	background-color: #ffceaa;
+	border-radius: 10px;
+	padding: 24px 71px 24px 29px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.notification-cta-text {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #000;
+}
+.button {
 }
